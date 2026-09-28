@@ -1,0 +1,27 @@
+# LaTeX build artifacts
+*.aux
+*.fls
+*.fdb_latexmk
+*.log
+*.out
+*.synctex.gz
+*.xdv
+build/
+_minted-*/
+*.bkp
+*.dtmp
+
+# Python / notebooks
+__pycache__/
+.ipynb_checkpoints/
+.env/
+venv/
+*.pyc
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
